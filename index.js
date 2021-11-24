@@ -13,8 +13,8 @@ app.use(bodyParser.urlencoded({ limit: '30mb', extended: true }))
 app.use(cors());
 
 app.use('/posts', postRoutes);
-app.get('./', (req, res) =>{
-  res.send('heelllo')
+app.get('/', (req, res) =>{
+  res.send('This is The Api')
 })
 
 const CONNECTION_URL = 'mongodb+srv://HenokEgezew:he&0943851525@cluster0.lthix.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
