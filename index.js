@@ -17,7 +17,7 @@ app.get('/', (req, res) =>{
   res.send('This is The Api') 
 })
 
-const CONNECTION_URL = 'mongodb+srv://henok:he&0943851525@cluster0.dpdnb.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
+const CONNECTION_URL = 'mongodb+srv://Henok:he0943851525@cluster0.jsfhd.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
 const PORT = process.env.PORT|| 5000;
 
 mongoose.connect(CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true })
