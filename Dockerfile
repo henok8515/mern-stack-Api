@@ -8,7 +8,6 @@ COPY . /server
 RUN yarn
 
 
-COPY . /server
 
 EXPOSE 5000
 
