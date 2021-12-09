@@ -14,10 +14,10 @@ app.use(cors());
 
 app.use('/posts', postRoutes);
 app.get('/', (req, res) =>{
-  res.send('This is The Api')
+  res.send('This is The Api') 
 })
 
-const CONNECTION_URL = 'mongodb+srv://HenokEgezew:he&0943851525@cluster0.lthix.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
+const CONNECTION_URL = 'mongodb+srv://Henok:he0943851525@cluster0.jsfhd.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
 const PORT = process.env.PORT|| 5000;
 
 mongoose.connect(CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true })
